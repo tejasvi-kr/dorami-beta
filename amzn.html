@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorami E-Commerce Store</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      color: #3498db;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .product {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #666;
+      border-radius: 10px;
+      width: 30%;
+      height: 240px;
+      margin-top: 100px;
+      transition-duration: 0.5s;
+    }
+    .product:hover{
+      border-color: aquamarine;
+      box-shadow: 0 0 10px 5px #3498db;
+      transition-duration: 0.5s;
+      height: 280px;
+      width: 32%;
+
+    }
+    button{
+      height: 60px;
+      width: 100px;
+      font-weight: bold;
+      border-radius:10px ;
+    }
+    button:hover{
+      background-color: black;
+      border-color: aqua;
+      color: #3498db;
+      height: 80px;
+      width: 120px;
+      transition-duration: 0.5s;
+
+    }
+    footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    h2{
+        color:#3498db;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AMZN PRIME</h1>
+  </header>
+
+  <section>
+    <div class="product">
+      <h2>AMZN PRIME</h2>
+      <p>5 Hours</p>
+      <p>Price: Rs.10</p>
+      <button>Rent Now</button>
+    </div>
+
+    <div class="product">
+      <h2>AMZN PRIME</h2>
+      <p>3 Days (75 Hours)</p>
+      <p>Price: Rs.30</p>
+      <button>Rent Now</button>
+    </div>
+
+    <div class="product">
+      <h2>AMZN PRIME</h2>
+      <p>7 Days (170 Hours)</p>
+      <p>Price: Rs.50</p>
+      <button>Rent Now</button>
+    </div>
+  </section>
+  <footer>
+    &copy; 2023 Dorami.co
+
+</body>
+</html>

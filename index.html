@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorexchange</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      font-size: larger;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .product {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #666;
+      border-radius: 10px;
+      width: 30%;
+      height: 240px;
+      margin-top: 100px;
+      transition-duration: 0.5s;
+    }
+    .product:hover{
+      height: 260px;
+      width: 32%;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    #ntflx{
+        color: red;
+        }
+
+    #amzn{
+        color: blue;
+    }
+    #sptfy{
+    color: aquamarine;
+    }
+    button{
+        background-color:whit;
+        border-color: grey;
+        border-radius: 15px;
+        border-width: 1px;
+        height: 60px;
+        width: 100px;
+        font-weight: bold;
+        color: black;
+        }
+    button:hover{
+        height: 80px;
+        width: 120px;
+        font-weight: bolder;
+    }
+    #bone:hover{
+        border-color: crimson;
+        border-radius: 10px;
+        background-color: black;
+        color: red;
+        transition-duration: 0.5s;
+    }
+    #btwo:hover{
+        border-color:cornflowerblue;
+        border-radius: 10px;
+        background-color:black;
+        color:cornflowerblue;
+        transition-duration: 0.5s;
+    }
+    #bthree:hover{
+        border-color: greenyellow;
+        border-radius: 10px;
+        background-color:black;
+        color: aquamarine;
+        transition-duration: 0.5s;
+    }
+    #ntflx:hover{
+        border-color: red;
+        transition-duration: 0.5s;
+        box-shadow: 0 0 10px 5px crimson;
+    }
+    #amzn:hover{
+        border-color: blue;
+        transition-duration: 0.5s;
+        box-shadow: 0 0 10px 5px #3498db;
+    }
+    #sptfy:hover{
+        border-color: aqua;
+        transition-duration: 0.5s;
+        box-shadow: 0 0 10px 5px aquamarine;
+    }
+    .inside{
+      margin-top: 40px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>   
+    <h1>Dorami.co</h1>
+  </header>
+
+  <section>
+    <div class="product" id="ntflx">
+      <div class="inside"><h2>NTFLX</h2>
+      <a href="ntflx.html"><button id="bone">View Plans</button></a>
+      </div>
+      
+    </div>
+
+    <div class="product" id="amzn">
+      <div class="inside">
+        <h2>AMZN PRIME VDO</h2>
+      <a href="amzn.html"><button id="btwo">View Plans</button>
+      </a>
+    </div>   
+    </div>
+
+    <div class="product" id="sptfy">
+      <div class="inside">
+      <h2>SPTFY PREMIUM</h2>
+      <a href="sptfy.html"><button id="bthree">View Plans</button></a>
+    </div>  
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2023 Dorami
+  </footer>
+
+</body>
+</html>
